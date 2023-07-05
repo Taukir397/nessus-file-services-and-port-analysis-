@@ -37,7 +37,7 @@ def generate_csv(host_data, file_name):
 
 if __name__ == '__main__':
     if len(sys.argv) != 2:
-        print("Usage: python3 app.py <nessus_file>")
+        print("Usage: python3 taukir.py <nessus_file>")
         sys.exit(1)
 
     file_path = sys.argv[1]
